@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="gStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Caboose</h2>
+            <div class="toggle"></div>
+
+        </header>
+
+        <video src="../img/DJI_0085.mp4" muted autoplay loop></video>
+
+        <div class="overlay"></div>
+        
+        <div class="text">
+            <h2>Works by</h2>
+            <h2>Caboose</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quae itaque nobis debitis rerum saepe, illo sed et nesciunt velit 
+                similique fuga consequuntur voluptate nemo perspiciatis hic laboriosam quo in vitae?
+            </p>
+            <a href="#">Caboose</a>
+        </div>
+
+        <ul class="social">
+           <li><a href="https://www.instagram.com/caboose_fpv/" target="_blank"><img src="../img/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+
+    <div class="gallery">
+        <ul>
+            <li><img src="../img/DJI_0250.JPG"></li>
+            <li><img src="../img/DJI_0274.JPG"></li>
+            <li><img src="../img/DJI_0440.JPG"></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () =>
+        {
+           menuToggle.classList.toggle('active')
+           showcase.classList.toggle('active') 
+        })
+    </script>
+    
+</body>
+</html>

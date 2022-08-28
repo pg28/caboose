@@ -1,0 +1,26 @@
+.nav:hover{
+    color: green
+}
+
+#one{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#beg{
+    text-align: center;
+}
+
+strong:hover{
+    color: blue;
+}
+
+.pics{
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
